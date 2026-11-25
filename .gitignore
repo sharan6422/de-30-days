@@ -1,0 +1,79 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Dataset Files
+# ==============================
+# Do not upload large raw datasets to GitHub
+data/*.csv
+data/**/*.csv
+data/*.zip
+data/**/*.zip
+
+# Processed datasets
+data/processed/
+data/cleaned/
+data/exports/
+
+# Preserve folder documentation
+!data/README.md
+!data/.gitkeep
+
+# ==============================
+# Database Files
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Testing / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
